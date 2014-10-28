@@ -20,7 +20,7 @@ We schedule the meetups and social stuff at [meetup.com/dev-reno](http://www.mee
 
 Meeting dates are normally the last Monday of the month and start at 6:00pm at the Reno Collective. Use the links below to see the agenda of upcoming and past meetings.
 
-### Meeting Aaendas and notes
+### Meeting Agendas and notes
 
 We make a wiki page for each meeting. The details for the next one can always be found here:
 
