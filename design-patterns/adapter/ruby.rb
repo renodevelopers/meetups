@@ -5,11 +5,9 @@
 #   https://github.com/renodevelopers/meetups/issues/26
 #
 
-
 module DesignPatterns
   module Structural
     module Adapter
-
 
       # legacy interface (paper)
       class Book
@@ -17,16 +15,11 @@ module DesignPatterns
         def turn_page;    'turn_page';   end
       end
 
-
       # book 2.0 (ebook)
       class Kindle
         def press_next;   'press_next';  end
         def press_start;  'press_start'; end
       end
-
-
-
-
 
       class EBookToBookAdapter < Struct.new(:ebook)
         def open
@@ -51,11 +44,6 @@ module DesignPatterns
           end
         end
       end
-
-
-
-
-
     end
   end
 end
