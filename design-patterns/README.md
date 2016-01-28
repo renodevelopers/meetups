@@ -6,4 +6,4 @@ link to them from the README for each pattern.
 
 + [Adapter](./adapter/README.md)
 + [Singleton](./singleton/README.md)
-+ [Decorator](./decorator/READEME.md)
++ [Decorator](./decorator/README.md)
