@@ -7,3 +7,6 @@ link to them from the README for each pattern.
 + [Adapter](./adapter/README.md)
 + [Singleton](./singleton/README.md)
 + [Decorator](./decorator/README.md)
++ [Observer](./observer/README.md)
++ [Builder](./builder/README.md)
++ [Composite](./composite/README.md)
