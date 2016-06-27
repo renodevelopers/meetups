@@ -29,3 +29,4 @@
 ## Examples:
 
 - [PHP](https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Builder)
+- [Ruby](./ruby.rb)
