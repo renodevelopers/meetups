@@ -14,3 +14,4 @@
 ## Examples:
 
 - [PHP](https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Observer)
+- [Ruby](./ruby.rb)

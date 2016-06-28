@@ -1,28 +1,36 @@
 require 'pp'
+
 class Bus
   def initialize
     @callables = Hash.new {|h,k| h[k] = [] }
   end
+
   def on(name, callable)
     @callables[name] << callable
   end
+
   def trigger(name)
     @callables[name].each do |callable|
       callable.call(name)
     end
   end
 end
+
 class Student
   attr_reader :name
+
   def initialize(name)
     @name = name
   end
+
   def say_hi
     puts "#{ name } says hi"
   end
+
   def say_bye
     puts "#{ name } says peace!"
   end
+
   def call(name)
     case name
     when "enter"
@@ -32,11 +40,14 @@ class Student
     end
   end
 end
+
 class Teacher
   def method_missing(name, bus)
     bus.trigger(name.to_s)
   end
 end
+
+# Tests?
 bus = Bus.new
 students = Array.new(3) do |i|
   Student.new("Student #{ i }")
